@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Giving Bear</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;700;900&family=Ubuntu:wght@400&display=swap" rel="stylesheet">
+  <!--bootstrap-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+  <!--css-->
+  <link rel="stylesheet" href="./styles.css">
+  <!--font-awesome for icons-->
+  <script src="https://kit.fontawesome.com/bc3dfe00f8.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+  <!--menu-->
+  <div class="menu">
+    <ul>
+      <li>
+        <span onmouseenter="hoverEnter(0)">
+          <i class="fas fa-home"></i>
+        </span>
+      </li>
+      <li>
+        <span onmouseenter="hoverEnter(1)">
+          <i class="fas fa-bullseye"></i>
+        </span>
+      </li>
+      <li>
+        <span onmouseenter="hoverEnter(2)">
+          <i class="fas fa-images"></i>
+        </span>
+      </li>
+      <li>
+        <span onmouseenter="hoverEnter(3)">
+          <i class="fas fa-address-book"></i>
+        </span>
+      </li>
+      <span class="goo-index" id="goo-index"></span>
+    </ul>
+  </div>
+
+  <!--Intro-->
+  <div class="content-wrapper">
+    <div id="screen_0" class="screen visible">
+      <h2>Giving Bear Foundation</h2>
+      <h3>Let's ensure Happy Childhood for sweet and innocent children. If you would like to help, Donate now!</h3>
+      <p>Today, anyone with a smartphone can participate in making a difference with great ease. More and more people are now raising funds online to tackle emergencies more efficiently.
+        Increasing digital access and the convenience of online payments are driving more and more people to take the digital route to mobilize greater support for urgent needs on time.</p>
+      <center>
+        <form>
+          <script src="https://checkout.razorpay.com/v1/payment-button.js" data-payment_button_id="pl_HIeeyoWyDrS1LG" async> </script>
+        </form>
+      </center>
+      <div class="image" style="background-image:url(https://i.pinimg.com/originals/b9/27/e8/b927e82096e8f74e62b1666e727a694c.gif)"></div>
+    </div>
+
+    <!--Mission-->
+    <div id="screen_1" class="screen">
+      <h2>Why choose us? - Our Mission</h2>
+      <p>On our platform, you can donate to a nonprofit with confidence. Our robust due diligence process covers legal, compliance, financial and impact checks for each donation made to any non-profit, including in-person visits to beneficiaries and
+        actual feedback reports.
+      <ul>
+        <li>Choice: 200+ organizations to donate to</li>
+        <li>Simple: Give at a click of a button</li>
+        <li>Convenient: Contribute money with ease</li>
+        <li>Credible: Donate with confidence to the verified NGOs</li>
+        <li>Scale: Make a big impact with your small amounts</li>
+      </ul>
+      </p>
+      <div class="image" style="background-image:url(https://employeeengagementcompany.com/wp-content/uploads/2018/09/Employee-hands_2.gif)"></div>
+    </div>
+
+    <!--Photo Gallery-->
+    <div id="screen_2" class="screen">
+      <h2>Our Photo Gallery</h2><br>
+      <p>Make a big impact with your small amounts and help these children. Your donation means alot!</p>
+      <center>
+        <div class="image"><img src="1.jpeg" style="width: 700px; height: 200px;"></div>
+        <div class="image"><img src="2.jpeg" style="width: 700px; height: 200px;"></div>
+      </center>
+    </div>
+
+    <!--Contact us-->
+    <div id="screen_3" class="screen">
+      <h2>Contact Us</h2>
+      <p>Address: Tamara Lane, Gurgaon, Haryana
+        <br>
+        Phone No: 13021902
+        <br>
+        Email ID: namyagupta2001@gmail.com
+        <br>
+      </p>
+      <div class="image" style="background-image:url(https://static.wixstatic.com/media/6b103b_f82699802c7645d18cfbec599383b012~mv2.gif)"></div>
+    </div>
+  </div>
+
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js'></script>
+  <script src="./script.js"></script>
+</body>
+
+</html>
